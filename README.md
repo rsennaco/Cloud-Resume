@@ -4,12 +4,16 @@ To further build on my devops skills, I'm looking to complete a slightly tweaked
 
 ## Goals
 
-- An end to end automated build pipeline launched from merged PRs
-- Static web page hosted in AWS
+- Static web page hosted in AWS S3
+- Terraform for IaC
+- Deployed with Github Actions
+- Modern enterprise security principles
+- Looks tight
 
 ## To Do
 
-- [ ] Finish README
-- [ ] Define end state
-- [ ] Define tools / languages required
-- [ ] Define MVP
+- [ ] Write terraform
+- [ ] Write github action
+- [ ] Set up auth for GHA
+- [ ] Set up GHA self-hosted runner
+- [ ] Write website
