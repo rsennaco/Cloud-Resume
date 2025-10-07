@@ -43,5 +43,6 @@ resource "aws_s3_object" "site_files" {
   depends_on = [
     aws_s3_bucket.site,
     aws_s3_bucket_ownership_controls.site,
-  aws_s3_bucket_public_access_block.site]
+    aws_s3_bucket_public_access_block.site
+  ]
 }
