@@ -14,3 +14,7 @@ terraform {
     profile = "Robert-CLI"
   }
 }
+
+provider "aws" {
+  region = var.region
+}
